@@ -9,7 +9,7 @@ This project demonstrates essential SQL skills used by **Data Analysts**, includ
 ## Project Overview
 
 **Project Title:** Retail Sales Analysis
-**Database:** `retail_sales_data`
+**Database:** `retail_data_db`
 **Table:** `retail_sales`
 **Technology:** SQL / PostgreSQL
 
@@ -79,7 +79,7 @@ The `retail_sales` table contains the following columns:
 ## Create Database
 
 ```sql
-CREATE DATABASE retail_sales_data;
+CREATE DATABASE retail_data_db;
 ```
 
 ## Create Table
@@ -463,9 +463,7 @@ RETAIL-SALES-ANALYSIS-SQL-PROJECT/
 │
 ├── sql/
 │   └── retail_sales_analysis.sql
-│
-└── screenshots/
-    └── query_results/
+
 ```
 
 ---
@@ -475,12 +473,12 @@ RETAIL-SALES-ANALYSIS-SQL-PROJECT/
 ### Step 1 — Create the Database
 
 ```sql
-CREATE DATABASE retail_sales_data;
+CREATE DATABASE retail_data_db;
 ```
 
 ### Step 2 — Connect to the Database
 
-Connect to `retail_sales_data` using PostgreSQL or your preferred SQL environment.
+Connect to `retail_data_db` using PostgreSQL or your preferred SQL environment.
 
 ### Step 3 — Create the Table
 
