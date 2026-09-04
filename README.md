@@ -1,4 +1,4 @@
-# 🛒 Retail Sales Analysis — SQL Project
+#  Retail Sales Analysis — SQL Project
 
 A beginner-friendly **SQL Data Analysis project** focused on exploring, cleaning, and analyzing retail sales data to answer real-world business questions.
 
@@ -6,7 +6,7 @@ This project demonstrates essential SQL skills used by **Data Analysts**, includ
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 **Project Title:** Retail Sales Analysis
 **Database:** `retail_sales_data`
@@ -27,7 +27,7 @@ The objective of this project is to analyze retail transaction data and extract 
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 The project focuses on the following objectives:
 
@@ -54,7 +54,7 @@ The project focuses on the following objectives:
 
 ---
 
-# 🗂️ Dataset Structure
+# Dataset Structure
 
 The `retail_sales` table contains the following columns:
 
@@ -74,12 +74,12 @@ The `retail_sales` table contains the following columns:
 
 ---
 
-# 🛠️ 1. Database Setup
+#  1. Database Setup
 
 ## Create Database
 
 ```sql
-CREATE DATABASE p1_retail_db;
+CREATE DATABASE retail_sales_data;
 ```
 
 ## Create Table
@@ -103,7 +103,7 @@ CREATE TABLE retail_sales
 
 ---
 
-# 🔍 2. Data Exploration & Cleaning
+#  2. Data Exploration & Cleaning
 
 ## Check Total Number of Records
 
@@ -163,7 +163,7 @@ WHERE
 
 ---
 
-# 📊 3. Business Analysis
+#  3. Business Analysis
 
 ## 1. Retrieve Sales Made on a Specific Date
 
@@ -387,37 +387,37 @@ GROUP BY shift;
 
 ---
 
-# 📈 Key Findings
+#  Key Findings
 
 The analysis provides several useful business insights:
 
-### 👥 Customer Demographics
+###  Customer Demographics
 
 The dataset contains customers from different age groups and genders, allowing customer purchasing behavior to be analyzed across demographic segments.
 
-### 🛍️ Category Performance
+###  Category Performance
 
 Sales are distributed across multiple product categories, such as **Clothing** and **Beauty**, allowing comparison of category-level performance.
 
-### 💰 High-Value Transactions
+###  High-Value Transactions
 
 Transactions with total sales greater than **1000** indicate the presence of premium or high-value purchases.
 
-### 📅 Sales Trends
+###  Sales Trends
 
 Monthly analysis helps identify variations in average sales and determine the best-performing months within each year.
 
-### 👤 Customer Insights
+###  Customer Insights
 
 The analysis identifies the **top-spending customers** and measures the number of unique customers purchasing from each category.
 
-### 🕐 Time-Based Sales
+### Time-Based Sales
 
 Shift analysis provides insight into when customers are most likely to place orders during the day.
 
 ---
 
-# 📑 Reports Generated
+# Reports Generated
 
 The project can be used to create the following analytical reports:
 
@@ -447,38 +447,9 @@ Includes:
 * Customer demographics
 * Gender-based purchasing behavior
 
----
 
-# 🧠 SQL Concepts Demonstrated
 
-This project covers several important SQL concepts required for entry-level Data Analyst roles:
-
-* `SELECT`
-* `WHERE`
-* `GROUP BY`
-* `ORDER BY`
-* `LIMIT`
-* `DISTINCT`
-* `COUNT()`
-* `COUNT(DISTINCT)`
-* `SUM()`
-* `AVG()`
-* `ROUND()`
-* `EXTRACT()`
-* `TO_CHAR()`
-* `CASE`
-* Common Table Expressions (CTEs)
-* Subqueries
-* Window Functions
-* `RANK()`
-* Data Cleaning
-* NULL value handling
-* Aggregation
-* Business-oriented SQL analysis
-
----
-
-# 🗃️ Project Structure
+# Project Structure
 
 A recommended GitHub repository structure:
 
@@ -499,17 +470,17 @@ RETAIL-SALES-ANALYSIS-SQL-PROJECT/
 
 ---
 
-# 🚀 How to Run the Project
+#  How to Run the Project
 
 ### Step 1 — Create the Database
 
 ```sql
-CREATE DATABASE p1_retail_db;
+CREATE DATABASE retail_sales_data;
 ```
 
 ### Step 2 — Connect to the Database
 
-Connect to `p1_retail_db` using PostgreSQL or your preferred SQL environment.
+Connect to `retail_sales_data` using PostgreSQL or your preferred SQL environment.
 
 ### Step 3 — Create the Table
 
@@ -529,7 +500,7 @@ Execute the business analysis queries to generate insights.
 
 ---
 
-# 💼 Skills Demonstrated
+#  Skills Demonstrated
 
 This project demonstrates practical skills in:
 
@@ -537,7 +508,7 @@ This project demonstrates practical skills in:
 
 ---
 
-# 🎯 Conclusion
+#  Conclusion
 
 The **Retail Sales Analysis SQL Project** demonstrates how SQL can be used to transform raw retail transaction data into meaningful business insights.
 
@@ -547,7 +518,7 @@ This project serves as a practical demonstration of the **SQL skills required fo
 
 ---
 
-## 👨‍💻 Portfolio Project
+## Portfolio Project
 
 **Project:** Retail Sales Analysis
 **Domain:** Retail / Data Analytics
